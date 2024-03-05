@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AK PORTFOLIO</title>
+   
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://kit.fontawesome.com/e49c9a3981.js" crossorigin="anonymous"></script>
+
+    
+</head>
+
+<body>
+  
+    
+    <!--header design-->
+  <div id="header">
+    <div class="container">
+    <nav class="navbar">
+        <a href="#" class="logo">AK Portfolio</a>
+        <ul id="sidemenu">
+            <li> <a href="#header">Home</a></li>
+            <li> <a href="#about">About Me</a></li>
+            <li> <a href="#services">Services</a></li>
+            <li> <a href="#portfolio">My work</a></li>
+            <li> <a href="#experience">Experience</a></li>
+            <li> <a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        
+    </nav>
+    </div>
+    
+            
+    <div class="header-text">
+        <h3>Life is really simple, but we insist <br>
+             on making it complicated.</h3>
+        <h3><span>hello</span> It's Me</h3>
+        <h1>Arun <span>Raju</span>  </h1>
+        <h3> I'm a <span> Student</span></h3>
+        
+       
+    </div>
+  </div>
+    <!---about section design-->
+   <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/silent.jpg" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello! I'm Arun, a passionate and ambitious student on a journey to explore
+                     the world of computer science engineering.
+                     <br><br> Currently pursuing my studies in web development , I'm driven by a love for creating a website.
+                     <br><br> Through my academic pursuits and personal projects, I'm learning and growing every day, with a keen focus on web development. 
+                    <br><br>Join me as I share my evolving portfolio and experiences on this exciting path of discovery</p>
+                      <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                      </div>
+                      <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><p><span>UI/UX</span><br>Desinging Web/App interfaces.</p></li>
+                            <li><p><span>Web Development</span><br>I'm Intrest to create Web app.</p></li>
+                            <li><p><span>Java Programminng</span><br> I'm Intrest to create applications using java.</p></li>
+                            <!--<li><span>App Development</span><br>Building Android/ios apps </li>---->
+                        </ul>
+                      </div>
+                      <div class="tab-contents" id="projects">
+                        <ul>
+                            <li><p><span>Fresh Greens Management System</span><br>It was help full for Farmers to customers.To Buy and Sell their product</p></li>
+                            <li><p><span>Grocery Delivery Management system</span><br>Order your groceries and Snacks </p></li>
+                            <li><p><span>Parking Slot Booking Management System</span><br>Drivers can Book their parking slot in any parking Place.</p></li>
+                            <li><p><span>To - Do List</span><br>create a To - Do list for want to complete our daily activities</p></li>
+                            <li><p><span>Simple Calculator</span><br>use to calculate simple</p></li>
+
+                        </ul>
+                      </div>
+                      <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2024</span><br>B E CSE at RP Sarathy Institute of Technology</li>
+                            <li><span>2018-2020</span><br>11th-12th at SRI Jothi Hr Sec School</li>
+                            <li><span>2017-2018</span><br>10th at GR Matric Hr sec school</li>
+                        </ul>
+                      </div>
+            </div>
+        </div>
+    </div>
+   </div>
+
+
+    <!--service section design-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web design</h2>
+                    <p> Welcome to my world of web design, where pixels meet purpose. <br> 
+                        <br> With a passion for creativity and a dedication to user-centric design, I specialize in bringing digital visions to life. <br>
+                        <br> From sleek and responsive layouts to captivating visuals, my goal is to transform ideas into interactive and memorable online experiences. 
+                       <br> <br> Explore my portfolio to see how I blend artistry and technology to shape the web."</p>
+                         <a href="#services">  . Learn more ..   </a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX design</h2>
+                    <p>Step into the world of UI/UX design, <br> where innovation meets user delight. 
+                       <br><br> I'm on a mission to create seamless and captivating digital journeys that leave a lasting impression. 
+                        <br><br>With a keen eye for aesthetics and a focus on user needs, I design interfaces that not only look stunning but also work effortlessly.
+                        <br><br> Dive into my portfolio to explore the art of user-centric design and discover how I elevate digital interactions.</p>
+                         <a href="#Home">. learn more ...</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App development</h2>
+                    
+                    <p>Welcome to my world of app development, where ideas turn into interactive realities. 
+                        <br><br>With a passion for coding and a flair for creativity, I specialize in crafting mobile and web applications that solve real-world problems.
+                        <br><br> My goal is to create intuitive, user-friendly, and scalable apps that make a difference. 
+                       <br><br> Explore my portfolio to see how I transform concepts into functional, user-centric apps that inspire and engage.
+                       <a href="#Home">.... learn more ..</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-------portfolio-->
+   <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/calci.jpg" alt="">
+                <div class="layer">
+                    <h3>Simple Calci</h3>
+                    <p>The Simple Calculator is a straightforward and user-friendly tool designed to perform basic arithmetic operations.
+                        <br> Whether you need to add, subtract, multiply, or divide numbers, this calculator provides a clean and intuitive interface for quick calculations.
+                        <br> It's perfect for everyday math tasks and serves as a handy digital companion for anyone seeking simplicity and efficiency in their calculations.
+                        <br> With its minimalistic design and easy-to-use features, the Simple Calculator makes math a breeze.</p>
+                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div><div class="work">
+                <img src="images/fg" alt="">
+                <div class="layer">
+                    <h3>Fresh Greens Management System</h3>
+                    It was Helpfull for Farmers to sell their products to directly to the customer.
+                    The customer will directly contacted and buy the Healthy products.
+
+                     <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/to-do list.jpg" alt="">
+                <div class="layer">
+                <h3>To-Do List</h3>
+                
+                    <p>Introducing the Personal To-Do List, your ultimate tool for staying organized and productive. 
+                        <br>This project is all about simplifying your daily life.
+                         <br>With an intuitive interface, you can easily add, edit, and prioritize tasks. 
+                         <br>Stay on top of your commitments by setting due dates and receiving timely reminders. 
+                         <br>Whether you're managing work, school, or personal goals, this to-do list empowers you to track your progress and celebrate your accomplishments. 
+                        <br>Take control of your time and tasks with the Personal To-Do List – because when it comes to productivity, every task counts.</p>
+                      <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+               
+                 </div>
+            </div>
+           
+            </div>
+                <a href="/work/index.html" class="btn">See More</a>
+        </div>
+    </div>
+
+<!-- experience section starts -->
+<section class="experience" id="experience">
+
+    <h2 class="heading"><i class="fas fa-briefcase"></i> Experience </h2>
+  
+    <div class="timeline">
+  
+      <div class="container left">
+        <div class="content">
+          <div class="tag">
+            <h2>Self Learning</h2>
+          </div>
+          <div class="desc">
+              <h3>Full Stack Developer</h3>
+              <p> 2022 - present</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="container right">
+        <div class="content">
+          <div class="tag">
+            <h2>Doing a Naan Mudhalvan Project</h2>
+          </div>
+          <div class="desc">
+              <h3>Grocery Delivery Management System | Open Source Program in github</h3>
+              <p>July 2023</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="container left">
+        <div class="content">
+          <div class="tag">
+            <h2>Participate in One Day Hackthon</h2>
+          </div>
+          <div  class="desc">
+              <h3>Fresh Greens For Farmer to Customer Management System | Open Source Program</h3>
+              <p>sept 2023</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="container right">
+        <div class="content">
+          <div class="tag">
+            <h2>Oduga Tech </h2>
+          </div>
+          <div class="desc">
+              <h3>Word Press | Internship</h3>
+              <p>June 2023 </p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="container left">
+        <div class="content">
+          <div class="tag">
+            <h2>Alogo Fusion</h2>
+          </div>
+          <div class="desc">
+              <h3>Web Developer | Internship</h3>
+              <p>Dec 2023</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="container right">
+        <div class="content">
+          <div class="tag">
+            <h2>Online Fuel Delivery Management System</h2>
+          </div>
+          <div class="desc">
+              <h3>Web Application  | Mini Project</h3>
+              <p>2021 - 2022</p>
+          </div>
+        </div>
+      </div>
+  
+     
+    <div class="morebtn">
+      <a href="/experience" class="btn"><span>View All</span>
+        <i class="fas fa-arrow-right"></i>
+    </a>
+    </div>
+  
+  </div>
+  
+  </section>
+  <!-- experience section ends -->
+  
+    <!---------contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-share-from-square"></i> contact@example.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 0123456789</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <a href=""  class="btn btn2">Think More</a>
+                </div>
+                
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="text" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message"  rows="6" placeholder="Your Messages"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="asss">
+           
+        </div>
+        
+<!-- footer section starts -->
+<section class="footer">
+
+    <div class="box-container">
+  
+        <div class="box">
+            <h3>Arun' s  Portfolio</h3>
+            <p>Thank you for visiting my personal portfolio website. Connect with me over socials. <br/> <br/> Keep Rising . Connect with me over live chat!</p>
+        </div>
+  
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="/#header"><i class="fas fa-chevron-circle-right"></i> home</a>
+            <a href="/#about"><i class="fas fa-chevron-circle-right"></i> about</a>
+            <a href="/#services"><i class="fas fa-chevron-circle-right"></i> services</a>
+            <a href="/#portfolio"><i class="fas fa-chevron-circle-right"></i> Portfolio</a>
+            <a href="/#contact"><i class="fas fa-chevron-circle-right"></i> contact</a>
+            <a href="/#experience"><i class="fas fa-chevron-circle-right"></i> experience</a>
+        </div>
+  
+        <div class="box">
+            <h3>contact info</h3>
+            <p> <i class="fas fa-phone"></i>+91 88 - 385 - 424 - 39</p>
+            <p> <i class="fas fa-envelope"></i>arunrajuka2001@gmail.com</p>
+            <p> <i class="fas fa-map-marked-alt"></i>Salam,TamilNadu India.</p>
+            <div class="social-icons">
+              <p><a href=""><i class="fa-brands fa-instagram"></i>mr_think_er_aru_n</a></p>
+              <p><a href=""><i class="fa-brands fa-whatsapp"></i>arunak</a></p>
+              <p><a href=""><i class="fa-brands fa-linkedin"></i>https://www.linkedin.com/in/arun-r-ab5336245/</a></p>
+             
+          </div>
+
+            <div class="share">
+  
+             <!----- <a href="https://www.linkedin.com/in/jigar-sable" class="fab fa-linkedin" target="_blank"></a>
+              <a href="https://github.com/jigar-sable" class="fab fa-github" target="_blank"></a>
+              <a href="mailto:jigarsable21@gmail.com" class="fas fa-envelope" target="_blank"></a>
+              <a href="https://twitter.com/jigar_sable" class="fab fa-twitter" target="_blank"></a>
+              <a href="https://t.me/lifecode5" class="fab fa-telegram-plane" target="_blank"></a>
+            </div>---->
+        </div>
+    </div>
+  
+    
+  </section>
+  <!-- footer section ends -->
+  
+        <div class="copyright">
+            <p>copyright @arunak. Made for me lovely <i class="fa-solid fa-heart-pulse"></i></p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = ''
+        const form = document.forms['submit-to-google-sheet']
+        form.addEventListener('submit',e =>{
+            e.preventDefault()
+            fetch(scriptURL,{method:'POST',body:new FormData(form)})
+            .then(response => console.log('Success!',response))
+            .catch(error => console.error('Error!',error.message))
+        })
+    </script>
+</body>
+</html>
